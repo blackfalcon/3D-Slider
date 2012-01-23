@@ -248,7 +248,7 @@
 			
 			var title	= this.$images.eq(this.imageCurrent).attr('title');
 			$('<div class="sb-title"><span>' + title + '</span></div>').appendTo( this.wrapper ).stop().animate({
-				height : '38px',
+				height : '125px',
 				bottom:'0px'
 			}, 300);
 			this.OptionInfo.addClass('sb-nav-noinfo').removeClass('sb-nav-info');
@@ -741,7 +741,7 @@
 			
 			var title	= this.$images.eq(this.imageCurrent).attr('title');
 			$('<div class="sb-title"><span>' + title + '</span></div>').appendTo( this.wrapper ).stop().animate({
-				height : '38px',
+				height :'125px',
 				bottom:'0px'
 			}, 300);
 			this.OptionInfo.addClass('sb-nav-noinfo').removeClass('sb-nav-info');

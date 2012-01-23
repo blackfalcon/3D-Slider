@@ -5,51 +5,22 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta name="description" content="Slicebox - 3D Image Slider with Fallback" />
-        <meta name="keywords" content="jquery, css3, 3d, webkit, fallback, slider, css3, 3d transforms, slices, rotate, box, automatic" />
-		<meta name="author" content="Pedro Botelho for Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico"> 
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
-		<link href='http://fonts.googleapis.com/css?family=Volkhov:400italic,700' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" type="text/css" href="css/core.css" />
 		<script type="text/javascript" src="js/modernizr.custom.13303.js"></script>
 	</head>
 	<body>
 		<div class="container">
-			<div class="header">
-				<a href="http://tympanus.net/Development/AutomaticImageMontage/"><span>&laquo; Previous Demo: </span>Automatic Image Montage</a>
-				<span class="right_ab">
-					<a target="_blank" href="http://www.flickr.com/photos/rickharris/">Images by <strong>Rick Harris</strong></a>
-					<a href="http://tympanus.net/codrops/2011/09/05/slicebox-3d-image-slider/"><strong>Back to the Codrops Article</strong></a>
-				</span>
-			</div>
-			<h1>Slicebox <span>A fresh 3D image slider with graceful fallback</span></h1>
-			<h2 id="sb-note" style="display:none;"><span>Note: Try opening this page with Chrome or Safari to see the 3D effect!</span></h2>
-			<div class="line"></div>
-			<div class="more">
-				<ul id="sb-examples">
-					<li>More examples:</li>
-					<li class="selected"><a href="index.html">Example 1</a></li>
-					<li><a href="index2.html">Example 2</a></li>
-					<li><a href="index3.html">Example 3</a></li>
-					<li><a href="index4.html">Example 4</a></li>
-					<li><a href="index5.html">Example 5</a></li>
-					<li><a href="index6.html">Example 6</a></li>
-				</ul>
-			</div>
 			<div id="sb-slider" class="sb-slider">
-				<img src="images/1.jpg" title="Creative Lifesaver"/>
-				<img src="images/2.jpg" title="Honest Entertainer"/>
-				<img src="images/3.jpg" title="Brave Astronaut"/>
-				<img src="images/4.jpg" title="Affectionate Decision Maker"/>
-				<img src="images/5.jpg" title="Faithful Investor"/>
-				<img src="images/6.jpg" title="Groundbreaking Artist"/>
-				<img src="images/7.jpg" title="Selfless Philantropist"/>
+				<img src="http://cache4.asset-cache.net/xc/112821803.jpg?v=1&c=IWSAsset&k=2&d=77BFBA49EF87892140FEB0FF7845C57DDA62181DF7043D8D6488568B1D0F22DD6F40A1051AFCE153" 
+				title="Snow covers Mount Rainier, Washington, in this U.S. Geological Service file photo. (Photo by USGS/MCT/MCT via Getty Images)"/>
+				<img src="http://cache1.asset-cache.net/xc/136020896.jpg?v=1&c=IWSAsset&k=2&d=77BFBA49EF87892155F29F61288AC1CAF2C42E1D1C0E359202FC54EACA70C27EA0A88FDB8BB84383E30A760B0D811297" alt="" title="Crib figurines showing Italian Prime Minister Silvio Berlusconi (L) and Apple founder Steve Jobs are displayed in a shop in Via San Gregorio Armeno in Naples which hosts many artisans who make world renowed hand-crafted Nativity scenes on December 20, 2011. Via San Gregorio Armeno is usually bustling at this time of year as Italians and tourists come for brightly painted figurines, from the Mary and Child, to the Angel Gabriel, to the richly-robed Three Wise Men but the artisans warn they may not be around fwor much longer as the economic crisis hits their family businesses. they may not be around fwor much longer as the economic crisis hits their family businesses. AFP PHOTO / CARLO HERMANN TO GO WITH AFP STORY BY ELLA IDE (Photo credit should read CARLO HERMANN/AFP/Getty Images)" />
+				<img src="http://cache4.asset-cache.net/xc/124945398.jpg?v=1&c=IWSAsset&k=2&d=77BFBA49EF8789219B309651A2344B3FD71FD9E812F0C762067FFC49B6075FF934672413ED707D86" alt="" title="FRANKFURT AM MAIN, GERMANY - SEPTEMBER 14: Audi R-8 E-Tron is pictured during the press days at the IAA Frankfurt Auto Show on September 14, 2011 in Frankfurt am Main, Germany. The IAA will be open to the public from September 17 through September 25. (Photo by Thorsten Wagner/Getty Images)" />
+				<img src="http://cache1.asset-cache.net/xc/137280776.jpg?v=1&c=IWSAsset&k=2&d=77BFBA49EF87892155F29F61288AC1CAB85D01B704D061142719DDD7DB02B9698DAEAAD7CF3C6339" alt="" title="SEATTLE, WASHINGTON - JANUARY 18: Pedestrians cross a snow-covered street January 18, 2012 in downtown Seattle, Washington. Seattle and Western Washington State have been hit with a snow storm that has dropped several inches of snow. (Photo by Stephen Brashear/Getty Images)" />
+				<img src="http://cache4.asset-cache.net/xc/137254374.jpg?v=1&c=IWSAsset&k=2&d=77BFBA49EF87892155F29F61288AC1CAA9187B24AD2572B60623B9CD8337290874CD1851E88B3F5C" alt="" title="MADISON, WI - JANUARY 17: Recall volunteer Tanya Schamens of Sparta, WI., wears pins showing her opposition to Governor Walker as she carries one of the boxes containing signatures to recall Gov. Scott Walker into the Government Accountability Offices on January 17, 2011 in Madison, Wisconsin. Over one-million signatures were collected in 60-days for a petition to recall Wisconsin Governor Scott Walker. 540,000 were required by law. (Photo by Mark Hirsch/Getty Images)" />
 			</div>
 		</div>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.slicebox.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
 		<script type="text/javascript">
 			$(function() {
 				
@@ -58,8 +29,7 @@
 					disperseFactor		: 30,
 					sequentialRotation	: true,
 					sequentialFactor	: 100
-				});
-				
+				});	
 				if( !Modernizr.csstransforms3d ) {
 					$('#sb-note').show();
 					
@@ -68,7 +38,7 @@
 					$('body').append(
 						$('script').attr( 'type', 'text/javascript' ).attr( 'src', 'js/jquery.easing.1.3.js' )
 					);
-				}	
+				}
 			});
 		</script>
 	</body>
